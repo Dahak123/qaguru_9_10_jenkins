@@ -29,7 +29,7 @@ public class RegistrationFormTests extends TestBase {
             picture = "1.png",
             currentAddress = faker.address().fullAddress(),
             state = "Uttar Pradesh",
-            city = "Merrut";
+            city = "Agra";
 
     @Test
     void successfulFillFormTest() {
