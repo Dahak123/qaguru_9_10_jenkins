@@ -53,6 +53,6 @@ public class SystemProperties {
         System.out.println(version);
         System.out.println(browserSize);
 
-        // gradle clean properties_tests -Dbrowser=opera -Dversion=93
+        // gradlew clean properties_tests -Dbrowser=opera -Dversion=93
     }
 }
