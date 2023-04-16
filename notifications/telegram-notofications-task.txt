@@ -1,0 +1,9 @@
+//// local
+java
+"-DprojectName=PROJECT_NAME"
+"-Denv=ENVIRONMENT"
+"-DreportLink=BUILD_URL"
+"-Dcomm=Any comment here"
+"-Dconfig.file=notifications/telegram.json"
+java -jar allure-notifications-4.2.1.jar
+//// remote
